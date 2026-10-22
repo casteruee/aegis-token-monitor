@@ -1,0 +1,31 @@
+# secrets & raw evidence
+probe_raw/
+*.env
+.env*
+secrets*
+*_token*
+*token*.json
+!usage.json
+!tests/**/token*.json
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# runtime output
+out/*
+!out/.gitkeep
+logs/
+
+# runtime cache & history (v0.2 自有，绝不入库)
+cache/*
+!cache/.gitkeep
+data/*.sqlite3
+data/*.sqlite3-*
+data/*.bak
+
+# window geometry (personal runtime)
+data/window.json

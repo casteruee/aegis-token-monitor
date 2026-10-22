@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="1460" viewBox="0 0 1020 1460" role="img" aria-labelledby="title desc">
+  <title id="title">Aegis Token Monitor 下一版静态设计板</title>
+  <desc id="desc">方案 A 为推荐的极简双列四卡片布局；方案 B 增加额度历史图区域。全部显示未连接和无历史状态，不含演示用量，不是已实现界面。</desc>
+  <style>
+    text{font-family:'Segoe UI','Microsoft YaHei UI',sans-serif;fill:#F0F4FA}
+    .muted{fill:#B2BFCE;font-size:13px}.tiny{fill:#B2BFCE;font-size:12px}
+    .name{font-size:16px;font-weight:600}.value{font-size:30px;font-weight:600}
+    .card{fill:#1A212B;stroke:#354151}.line{stroke:#354151;stroke-width:1}
+    .accent{fill:#8AAFFF}.label{font-size:14px}.heading{font-size:23px;font-weight:600}
+  </style>
+  <rect width="1020" height="1460" fill="#ECEFF3"/>
+  <text x="60" y="43" style="fill:#1A212B;font-size:24px;font-weight:650">A / 极简 Dashboard</text>
+  <text x="780" y="43" style="fill:#315FAD;font-size:15px">推荐 · 900 × 600 DIP</text>
+  <text x="60" y="70" style="fill:#546171;font-size:13px">静态设计 · 未连接状态 · 不含模拟用量 · Windows 标题栏保留</text>
+  <g transform="translate(60 88)">
+    <rect width="900" height="632" rx="12" fill="#11151C"/>
+    <path d="M12 0H888Q900 0 900 12V32H0V12Q0 0 12 0" fill="#202733"/>
+    <text x="16" y="21" class="tiny">Aegis</text><text x="800" y="21" class="muted">—</text><text x="838" y="21" class="muted">□</text><text x="877" y="21" class="muted">×</text>
+    <g transform="translate(0 32)">
+      <text x="24" y="48" font-size="20" font-weight="600">Aegis Token Monitor</text>
+      <circle cx="693" cy="42" r="4" fill="#B2BFCE"/><text x="706" y="47" class="muted">尚未连接</text>
+      <rect x="804" y="24" width="72" height="34" rx="7" fill="#26364D"/>
+      <text x="823" y="46" class="label accent">刷新</text>
+      <g transform="translate(24 80)">
+        <rect width="420" height="176" rx="10" class="card"/>
+        <text x="16" y="29" class="name">Codex</text><text x="327" y="29" class="tiny">○ 未读取</text>
+        <text x="16" y="66" class="value">—</text><text x="60" y="63" class="muted">5h 剩余</text>
+        <text x="16" y="92" class="muted">已用 —</text><text x="235" y="92" class="muted">重置 —</text>
+        <line x1="16" x2="404" y1="104" y2="104" class="line"/>
+        <text x="16" y="125" class="label">Weekly 剩余 —</text><text x="235" y="125" class="muted">已用 — · 重置 —</text>
+        <text x="16" y="156" class="tiny">尚未成功更新</text><text x="357" y="156" class="tiny accent">详情 ›</text>
+      </g>
+      <g transform="translate(456 80)">
+        <rect width="420" height="176" rx="10" class="card"/>
+        <text x="16" y="29" class="name">z.ai / GLM</text><text x="327" y="29" class="tiny">○ 未读取</text>
+        <text x="16" y="66" class="value">—</text><text x="60" y="63" class="muted">5h 剩余</text>
+        <text x="16" y="92" class="muted">已用 —</text><text x="235" y="92" class="muted">重置 —</text>
+        <line x1="16" x2="404" y1="104" y2="104" class="line"/>
+        <text x="16" y="125" class="label">Weekly 剩余 —</text><text x="235" y="125" class="muted">已用 — · 重置 —</text>
+        <text x="16" y="156" class="tiny">尚未成功更新</text><text x="357" y="156" class="tiny accent">详情 ›</text>
+      </g>
+      <g transform="translate(24 268)">
+        <rect width="420" height="176" rx="10" class="card"/>
+        <text x="16" y="29" class="name">MiniMax</text><text x="327" y="29" class="tiny">○ 未读取</text>
+        <text x="16" y="66" class="value">—</text><text x="60" y="63" class="muted">5h 剩余</text>
+        <text x="16" y="92" class="muted">已用 —</text><text x="235" y="92" class="muted">重置 —</text>
+        <line x1="16" x2="404" y1="104" y2="104" class="line"/>
+        <text x="16" y="125" class="label">Weekly 剩余 —</text><text x="235" y="125" class="muted">已用 — · 重置 —</text>
+        <text x="16" y="156" class="tiny">尚未成功更新</text><text x="357" y="156" class="tiny accent">详情 ›</text>
+      </g>
+      <g transform="translate(456 268)">
+        <rect width="420" height="176" rx="10" class="card"/>
+        <text x="16" y="29" class="name">DeepSeek</text><text x="327" y="29" class="tiny">○ 未读取</text>
+        <text x="16" y="66" class="value">—</text><text x="60" y="63" class="muted">余额</text>
+        <text x="16" y="99" class="muted">该来源仅提供余额</text>
+        <text x="16" y="125" class="tiny">金额与币种以返回结果为准</text>
+        <text x="16" y="156" class="tiny">尚未成功更新</text><text x="357" y="156" class="tiny accent">详情 ›</text>
+      </g>
+      <g transform="translate(24 464)">
+        <text x="0" y="17" class="name">工作足迹</text><text x="104" y="17" class="tiny">最近 7 日观测</text><text x="803" y="17" class="tiny accent">历史 ›</text>
+        <text x="0" y="53" class="muted">尚未开始记录</text>
+        <text x="0" y="77" class="tiny">Token 统计尚未接入</text>
+        <g fill="#B2BFCE">
+          <rect x="536" y="47" width="13" height="2" rx="1"/><rect x="581" y="47" width="13" height="2" rx="1"/>
+          <rect x="626" y="47" width="13" height="2" rx="1"/><rect x="671" y="47" width="13" height="2" rx="1"/>
+          <rect x="716" y="47" width="13" height="2" rx="1"/><rect x="761" y="47" width="13" height="2" rx="1"/>
+          <rect x="806" y="47" width="13" height="2" rx="1"/>
+        </g>
+        <text x="536" y="77" class="tiny">— 无观测；不代表使用量为零</text>
+      </g>
+    </g>
+  </g>
+  <text x="60" y="768" style="fill:#1A212B;font-size:24px;font-weight:650">B / 增强可视化 Dashboard</text>
+  <text x="751" y="768" style="fill:#546171;font-size:14px">备选 · 图表占比更高</text>
+  <text x="60" y="795" style="fill:#546171;font-size:13px">同样的真实数据边界 · 历史为空就不画曲线 · Token 统计未接入</text>
+  <g transform="translate(60 812)">
+    <rect width="900" height="590" rx="12" fill="#11151C"/>
+    <path d="M12 0H888Q900 0 900 12V32H0V12Q0 0 12 0" fill="#202733"/>
+    <text x="16" y="21" class="tiny">Aegis</text><text x="800" y="21" class="muted">—</text><text x="838" y="21" class="muted">□</text><text x="877" y="21" class="muted">×</text>
+    <text x="24" y="76" font-size="20" font-weight="600">Aegis Token Monitor</text><text x="693" y="75" class="muted">○ 尚未连接</text>
+    <rect x="804" y="53" width="72" height="34" rx="7" fill="#26364D"/><text x="823" y="76" class="label accent">刷新</text>
+    <g transform="translate(24 108)">
+      <rect width="420" height="112" rx="10" class="card"/><text x="16" y="28" class="name">Codex</text><text x="327" y="28" class="tiny">○ 未读取</text>
+      <text x="16" y="55" class="label">5h 剩余 —</text><text x="218" y="55" class="label">Weekly 剩余 —</text>
+      <text x="16" y="77" class="tiny">已用 — · 重置 —</text><text x="218" y="77" class="tiny">已用 — · 重置 —</text>
+      <text x="16" y="98" class="tiny">尚未成功更新</text><text x="357" y="98" class="tiny accent">详情 ›</text>
+    </g>
+    <g transform="translate(456 108)">
+      <rect width="420" height="112" rx="10" class="card"/><text x="16" y="28" class="name">z.ai / GLM</text><text x="327" y="28" class="tiny">○ 未读取</text>
+      <text x="16" y="55" class="label">5h 剩余 —</text><text x="218" y="55" class="label">Weekly 剩余 —</text>
+      <text x="16" y="77" class="tiny">已用 — · 重置 —</text><text x="218" y="77" class="tiny">已用 — · 重置 —</text>
+      <text x="16" y="98" class="tiny">尚未成功更新</text><text x="357" y="98" class="tiny accent">详情 ›</text>
+    </g>
+    <g transform="translate(24 232)">
+      <rect width="420" height="112" rx="10" class="card"/><text x="16" y="28" class="name">MiniMax</text><text x="327" y="28" class="tiny">○ 未读取</text>
+      <text x="16" y="55" class="label">5h 剩余 —</text><text x="218" y="55" class="label">Weekly 剩余 —</text>
+      <text x="16" y="77" class="tiny">已用 — · 重置 —</text><text x="218" y="77" class="tiny">已用 — · 重置 —</text>
+      <text x="16" y="98" class="tiny">尚未成功更新</text><text x="357" y="98" class="tiny accent">详情 ›</text>
+    </g>
+    <g transform="translate(456 232)">
+      <rect width="420" height="112" rx="10" class="card"/><text x="16" y="28" class="name">DeepSeek</text><text x="327" y="28" class="tiny">○ 未读取</text>
+      <text x="16" y="61" class="label">余额 —</text><text x="218" y="61" class="tiny">该来源仅提供余额</text>
+      <text x="16" y="98" class="tiny">尚未成功更新</text><text x="357" y="98" class="tiny accent">详情 ›</text>
+    </g>
+    <g transform="translate(24 360)">
+      <rect width="852" height="158" rx="10" class="card"/>
+      <text x="16" y="28" class="name">7 日观测</text><text x="568" y="28" class="muted">额度变化 ▾</text><text x="740" y="28" class="muted">Codex ▾</text>
+      <line x1="16" x2="836" y1="42" y2="42" class="line"/>
+      <text x="16" y="68" class="tiny">剩余额度 %</text>
+      <text x="317" y="95" class="label">还没有历史观测记录</text>
+      <text x="267" y="122" class="tiny">记录后展示真实时间点；缺测保留为空</text>
+      <text x="790" y="142" class="tiny">时间</text>
+    </g>
+    <text x="24" y="554" class="muted">Token Activity：尚未接入真实计数源</text><text x="827" y="554" class="tiny accent">历史 ›</text>
+  </g>
+  <text x="60" y="1434" style="fill:#546171;font-size:13px">仅为设计交付；状态与尺寸细则见 UI_NEXT_VERSION_DESIGN.md。没有开始 UI 开发。</text>
+</svg>

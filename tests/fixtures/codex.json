@@ -1,0 +1,48 @@
+[
+  {
+    "cost": null,
+    "provider": "codex",
+    "source": "oauth",
+    "usage": {
+      "extra_rate_windows": [
+        {
+          "id": "codex-gpt-reserve",
+          "title": "Gpt Reserve",
+          "window": {
+            "is_informational": false,
+            "reset_description": "6d 23h",
+            "resets_at": "2026-09-22T08:00:00Z",
+            "used_percent": 0.0,
+            "window_minutes": 10080
+          }
+        },
+        {
+          "id": "reset-credits",
+          "title": "Reset credits",
+          "window": {
+            "is_informational": true,
+            "reset_description": "1 reset credit available",
+            "resets_at": "2026-10-08T03:30:00.250000Z",
+            "used_percent": 0.0
+          }
+        }
+      ],
+      "login_method": "synthetic-test",
+      "primary": {
+        "is_informational": false,
+        "reset_description": "2h 15m",
+        "resets_at": "2026-09-15T10:15:00Z",
+        "used_percent": 66.0,
+        "window_minutes": 300
+      },
+      "secondary": {
+        "is_informational": false,
+        "reset_description": "4d 01h",
+        "resets_at": "2026-09-19T07:42:00Z",
+        "used_percent": 44.0,
+        "window_minutes": 10080
+      },
+      "updated_at": "2026-09-15T08:00:00.123456Z"
+    }
+  }
+]

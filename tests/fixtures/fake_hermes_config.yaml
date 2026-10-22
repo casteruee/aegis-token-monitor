@@ -1,0 +1,20 @@
+custom_providers:
+  - name: openrouter
+    base_url: https://openrouter.example/api
+    api_key: sk-other-zzzzzzzz
+    api_mode: chat
+    model: some-model
+  - name: deepseek
+    base_url: https://api.fake-deepseek.example/v1
+    api_key: "Bearer prefix junk sk-test-yyyyyyyy trailing"
+    api_mode: chat
+    models:
+      deepseek-v4-pro:
+        context_length: 128000
+        name: DeepSeek V4 Pro
+      deepseek-v4-flash:
+        context_length: 128000
+        name: DeepSeek V4 Flash
+    model: deepseek-v4-pro
+  - name: trailing
+    api_key: sk-trailing-aaaaaaaa
